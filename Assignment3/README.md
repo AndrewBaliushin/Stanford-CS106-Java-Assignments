@@ -1,2 +1,4 @@
-** Eclipse project with solved assignment #3 **
+## Assignment #3 solved
+
+Contains Eclipse project files
 
