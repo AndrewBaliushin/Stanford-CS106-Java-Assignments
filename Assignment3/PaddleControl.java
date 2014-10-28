@@ -8,7 +8,7 @@ import acm.graphics.GRect;
  * @author Andrew Baliushin
  *
  */
-public class PaddleControll {
+public class PaddleControl {
 
 	private Breakout gameObj;
 
@@ -26,7 +26,7 @@ public class PaddleControll {
 	 * @param pHeight
 	 * @param pYoffset
 	 */
-	public PaddleControll(Breakout gameObj, int pWidth, int pHeight,
+	public PaddleControl(Breakout gameObj, int pWidth, int pHeight,
 			int pYoffset) {
 		this.pWidth = pWidth;
 		this.pHeight = pHeight;

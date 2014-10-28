@@ -66,8 +66,8 @@ public class Breakout extends GraphicsProgram {
 	private static final Color[] COLORS = { Color.RED, Color.ORANGE,
 			Color.YELLOW, Color.GREEN, Color.CYAN };
 	
-	private PaddleControll paddleCtrl;
-	private BallControll ballConroll;
+	private PaddleControl paddleCtrl;
+	private BallControl ballConroll;
 	
 	private int lifes = NTURNS;
 	
@@ -82,8 +82,8 @@ public class Breakout extends GraphicsProgram {
 
 		setBrickField();
 		
-		paddleCtrl = new PaddleControll(this, PADDLE_WIDTH, PADDLE_HEIGHT, PADDLE_Y_OFFSET);
-		ballConroll = new BallControll(this, BALL_RADIUS);
+		paddleCtrl = new PaddleControl(this, PADDLE_WIDTH, PADDLE_HEIGHT, PADDLE_Y_OFFSET);
+		ballConroll = new BallControl(this, BALL_RADIUS);
 			
 		
 		addMouseListeners();

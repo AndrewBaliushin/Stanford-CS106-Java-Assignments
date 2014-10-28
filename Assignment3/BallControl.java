@@ -12,7 +12,7 @@ import acm.graphics.GOval;
  * @author Andrew Baliushin
  *
  */
-public class BallControll {
+public class BallControl {
 	
 	private static final int SPEED = 10;
 
@@ -26,7 +26,7 @@ public class BallControll {
 	private double dx = 0;
 	private double dy = 0;
 
-	public BallControll(Breakout gameObj, int radius) {
+	public BallControl(Breakout gameObj, int radius) {
 		this.diameter = 2 * radius;
 		this.gameObj = gameObj;
 
